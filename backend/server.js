@@ -10,7 +10,7 @@ const app = express()
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-  origin: 'https://todo-app-c41w.onrender.com', 
+  origin: 'https://todo-app-lemon-phi.vercel.app/', 
   methods: 'GET,POST,PUT,DELETE',
 }));
 dotenv.config()
