@@ -17,7 +17,7 @@ const Signup = () => {
 
         try {
             const res = await axios.post(
-                "http://localhost:3000/api/register",
+                "https://todo-app-c41w.onrender.com/api/register",
                 formData
             );
 

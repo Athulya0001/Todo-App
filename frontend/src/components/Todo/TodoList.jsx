@@ -16,7 +16,7 @@ const TodoPage = () => {
 
     const fetchTodos = async () => {
         try {
-            const res = await axios.get("http://localhost:3000/api/todos", {
+            const res = await axios.get("https://todo-app-c41w.onrender.com/api/todos", {
                 headers: { Authorization: `Bearer ${token}` },
             });
             setTodos(res.data.todos);
